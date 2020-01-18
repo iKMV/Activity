@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    background: #1a1a1a;
+
+
+}
+
+.button{
+    border: 5px solid blue;
+    height: 70px;
+    width: 170px;
+    margin-top: 9rem;
+    margin-left: 10rem;
+    text-align: center;
+    background: #fff;
+
+}
+
+#container{
+    border: 5px solid green;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 400px;
+    top: 60px;
+    background: #fff;
+}
+
+#btn-table:before{
+    content: "Fill Table";
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+
+
+
+
+
+}
+
+#btn-dialog:before{
+    content: "Fill Dialog";
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+
+
+}
+
+#btn-table:active{
+    color: red;
+    background: gray;
+
+}
+
+#btn-dialog:active{
+    color: red;
+    background: gray;
+}
+
+
+
